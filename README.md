@@ -1,4 +1,4 @@
-# TP – Mise en place d'ESLint avec Git et GitHub Actions
+# TP HUGO TRAN – Mise en place d'ESLint avec Git et GitHub Actions
 
 ## 1. Initialisation du projet et installation d'ESLint
 

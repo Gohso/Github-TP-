@@ -228,4 +228,6 @@ Naivement on va essayer de le push. On est bien bloqué avec : 69 problems (59 e
 On va donc utiliser la commande fix pour regler cela automatiquement : npx eslint --fix
 On voit donc maintenant : ✖ 10 problems (0 errors, 10 warnings)
 On va donc push avec git push --set-upstream origin feature/ajout-fonction sur notre branch dans un premier temps. 
-On arrive bien a push sur notre branch on va maintant la récupérer sur notre main et vérifier qu'il passe bien les test de notre workflows.
+On arrive bien a push sur notre branch on va maintant la récupérer sur notre main et vérifier qu'il passe bien les test de notre workflows. On arrive donc bien a pull request lint ne sort pas d'erreur. On arrive donc bien a fusionner notre repo avec notre branche.
+
+Ce TP montre la puissance de l'automatisation des workflows, pour sécuriser un deploiement. Pour aller on pourrait ajouter des test de compilation. Et ou dans le cas ou il y a des pb identifié avec npx eslint app.js, on pourrait automatiser l'exécution de la commande npx eslint --fix app.js et automatiser un peu la résolution d'erreur.

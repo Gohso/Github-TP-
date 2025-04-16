@@ -46,5 +46,6 @@ On ajoute le json. Problème, le fichier qu'on a est un mjs donc on convertit no
 
 ## 5 Mise en place de GitHub Actions 
 On ajoute un workflow CI en créant : ./github/workflows/lint.yml
-avec le code fourni dans le tp 
+avec le code fourni dans le TP
+On le pousse sur github et on voit dans Action qu'un workflow et créer on voit bien une erreur, lié a l'indentation.
 

@@ -43,3 +43,8 @@ On teste ensuite un commit et on est bien bloqué avec notre message : `Expected
 
 ## 4 Configuration avancée d’ESLint 
 On ajoute le json. Problème, le fichier qu'on a est un mjs donc on convertit notre json en mjs et on ajoute notre ligne `"lint": "eslint ."` dans notre `package.json`, puis on teste avec `npm run lint`. On verra bien notre erreur et 2 warning ressortir.
+
+## 5 Mise en place de GitHub Actions 
+On ajoute un workflow CI en créant : ./github/workflows/lint.yml
+avec le code fourni dans le tp 
+
